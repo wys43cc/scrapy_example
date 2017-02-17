@@ -14,5 +14,8 @@ SPIDER_MODULES = ['zhihu.spiders']
 NEWSPIDER_MODULE = 'zhihu.spiders'
 DOWNLOAD_DELAY = 0.25
 
+COOKIES_ENABLED=True
+COOKIES_DEBUG=True
+
 # Crawl responsibly by identifying yourself (and your website) on the user-agent
 #USER_AGENT = 'zhihu (+http://www.yourdomain.com)'
